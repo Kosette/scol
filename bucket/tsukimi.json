@@ -1,13 +1,13 @@
 {
-    "version": "0.4.0-1",
+    "version": "0.4.0-2",
     "description": "A Simple and Easy to use EMBY client.",
     "homepage": "https://github.com/tsukinaha/tsukimi",
     "license": "GPL-3.0-only",
     "notes": "You can put all your config files under mpv/ directory.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v0.4.0-1-win/tsukimi-x86_64-windows-gnu.zip",
-            "hash": "sha512:986770c2aa6ed4d10f026ae08afdbdcaa3fb970082732f00b701a4b3991d08fd15301c77f13938e1a016264236f251ed752ef976d8bab06e8722d6b38e8df0a6"
+            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v0.4.0-2-win/tsukimi-x86_64-windows-gnu.zip",
+            "hash": "sha512:957f0c70c8ece2666f2abf4b9abf5826510597ddd509d10671f31432d3d5002d3a0142c1931760f71ae1aacd45aa0718487658506da476c06e5c63ff18bfb2ce"
         }
     },
     "shortcuts": [
