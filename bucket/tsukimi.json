@@ -1,13 +1,13 @@
 {
-    "version": "0.4.0-4",
+    "version": "0.4.0-6",
     "description": "A Simple and Easy to use EMBY client.",
     "homepage": "https://github.com/tsukinaha/tsukimi",
     "license": "GPL-3.0-only",
     "notes": "You can put all your config files under mpv/ directory.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v0.4.0-4-win/tsukimi-x86_64-windows-gnu.zip",
-            "hash": "sha512:257b4eca9420f7473e8579bb3a760c40a1060947f8019fcb27b1e18e33ed7be2dac53f569ab1d2989d9df5635117a65c0055f7e91b6c024705015591ea12c8c4"
+            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v0.4.0-6-win/tsukimi-x86_64-windows-gnu.7z",
+            "hash": "sha512:c6322fb7244e5164c1ef91ccd19c46ca18567421d4277988d9fd47f98e98b3c764d07b5f57cad636c5d35cd46cd32a2dd5399902fa4e47ed2c15861b747d7d3d"
         }
     },
     "shortcuts": [
@@ -28,11 +28,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tsukinaha/tsukimi/releases/download/v$version-win/tsukimi-x86_64-windows-gnu.zip"
+                "url": "https://github.com/tsukinaha/tsukimi/releases/download/v$version-win/tsukimi-x86_64-windows-gnu.7z"
             }
         },
         "hash": {
-            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v$version-win/tsukimi.sha512sum"
+            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v$version-win/tsukimi-7z.sha512sum"
         }
     }
 }
