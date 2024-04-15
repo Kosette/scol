@@ -7,7 +7,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Kosette/tsukimi/releases/download/windows-weekly-2024-04-15/tsukimi-x86_64-windows-gnu.7z",
-            "hash": "sha512:5966060471b863a1f2ea42c5aba692ca8d2411c5436d3def1438aaf63c303ec6f835a224ca06778b114df63ff610e632143bf292adc058ba6617f56f5c7b9397"
+            "hash": "sha512:8f955a0a7a03b2efffa70e40189e65f9affa84d017ce3e1441ef6cd4e2f8b93072ad19150ede590d4fe090d4abb3dc20cb05b8296b90e6b8b895584b8b20c766"
         }
     },
     "shortcuts": [
