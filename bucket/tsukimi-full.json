@@ -6,14 +6,14 @@
     "notes": "You can put all your config files under mpv/ directory.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v0.4.7-win/tsukimi-x86_64-windows-gnu.7z",
-            "hash": "sha512:468b00af595f3c96a43086819a8ae7377cf6eb9be1e434cae85496fce08348467e4409a99babe683ab4a6ea65f57339ff04c6464b01b360a3d03f4fc2e1b5cc2"
+            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v0.4.7-win/tsukimi-x86_64-windows-gnu-complete.7z",
+            "hash": "sha512:c29c810faf3d2a6957f12ca4af9f9423f3f65669ec331011ad0ba5ffed22041a0849f607c21b8c96f762303ca48e583b458f67890fa1deb2d4595a7769a43aaa"
         }
     },
     "shortcuts": [
         [
             "bin/tsukimi.exe",
-            "Tsukimi"
+            "Tsukimi-Full"
         ]
     ],
     "persist": [
@@ -28,7 +28,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tsukinaha/tsukimi/releases/download/v$version-win/tsukimi-x86_64-windows-gnu.7z"
+                "url": "https://github.com/tsukinaha/tsukimi/releases/download/v$version-win/tsukimi-x86_64-windows-gnu-complete.7z"
             }
         },
         "hash": {
