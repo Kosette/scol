@@ -1,13 +1,13 @@
 {
-    "version": "2024-04-28",
+    "version": "2024-04-29",
     "description": "A Simple and Easy to use EMBY client.",
     "homepage": "https://github.com/tsukinaha/tsukimi",
     "license": "GPL-3.0-or-later",
     "notes": "This is Tsukimi built with latest libmpv-dev-v3.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kosette/tsukimi/releases/download/windows-weekly-2024-04-28/tsukimi-x86_64-windows-gnu.7z",
-            "hash": "sha512:4f9130c6ec5830f8a1df7e00762c72bfeaf561bbd7f0d243c5b846b9dd156f3d273218c7a611e89604cb5de86ef1b58098d4179dd79032d9be98a361e7e25b85"
+            "url": "https://github.com/Kosette/tsukimi/releases/download/windows-weekly-2024-04-29/tsukimi-x86_64-windows-gnu.7z",
+            "hash": "sha512:627ff451cee16bfba35c9048f2f3ce979f9e7fcc8fb5ff247a4f9c70e7280e555162b62165857e81716017eeee54fdbe1d929fd66ea05a35acb59400631e29aa"
         }
     },
     "shortcuts": [
