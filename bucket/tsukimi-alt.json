@@ -1,38 +1,28 @@
 {
-    "version": "2024-05-16",
-    "description": "A Simple and Easy to use EMBY client.",
+    "version": "0.12.2",
+    "description": "A Simple EMBY client.",
     "homepage": "https://github.com/tsukinaha/tsukimi",
     "license": "GPL-3.0-or-later",
-    "notes": "This is Tsukimi built with latest libmpv-dev-v3.",
+    "notes": "This is a tsukimi release test, Do Not use it.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kosette/tsukimi/releases/download/windows-weekly-2024-05-16/tsukimi-x86_64-windows-gnu.7z",
-            "hash": "sha512:62c2cfa8da19768881a70645afa20c59d667b4d3184c350b0f4ea294ce35a1094b3325f92baca5f9c6fb75fdbd8378fbdb25abbf53d5f2a4e6aa844770dc59d1"
+            "url": "https://github.com/Kosette/tsukimi/releases/download/v0.12.2/tsukimi-x86_64-windows-gnu.7z",
+            "hash": "sha512:7d8ea64ec588db4e537aa79cc17085aa65445d2a98ed631981740dee5eed8e2b11ac85286536f198ffb208af90942b98165ad4b01d1a50c5e2f6a45cd8c58389"
         }
     },
-    "shortcuts": [
-        [
-            "bin/tsukimi.exe",
-            "Tsukimi-Alt"
-        ]
-    ],
-    "persist": [
-        "config",
-        "mpv",
-        "cache"
-    ],
+    "shortcuts": [["bin/tsukimi.exe", "Tsukimi-Alt"]],
     "checkver": {
         "url": "https://api.github.com/repos/Kosette/tsukimi/releases/latest",
-        "regex": "/windows-weekly-(\\d{4}-\\d{2}-\\d{2})"
+        "regex": "/v([\\w-.]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Kosette/tsukimi/releases/download/windows-weekly-$version/tsukimi-x86_64-windows-gnu.7z"
+                "url": "https://github.com/Kosette/tsukimi/releases/download/$version/tsukimi-x86_64-windows-gnu.7z"
             }
         },
         "hash": {
-            "url": "https://github.com/Kosette/tsukimi/releases/download/windows-weekly-$version/tsukimi.sha512sum"
+            "url": "$baseurl/tsukimi.sha512sum"
         }
     }
 }
