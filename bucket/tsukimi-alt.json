@@ -1,13 +1,12 @@
 {
-    "version": "0.12.2",
+    "version": "v2024-09-25",
     "description": "A Simple EMBY client.",
     "homepage": "https://github.com/tsukinaha/tsukimi",
     "license": "GPL-3.0-or-later",
-    "notes": "This is a tsukimi release test, Do Not use it.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kosette/tsukimi/releases/download/v0.12.2/tsukimi-x86_64-windows-gnu.7z",
-            "hash": "sha512:7d8ea64ec588db4e537aa79cc17085aa65445d2a98ed631981740dee5eed8e2b11ac85286536f198ffb208af90942b98165ad4b01d1a50c5e2f6a45cd8c58389"
+            "url": "https://github.com/Kosette/tsukimi/releases/download/v2024-09-25/tsukimi-ucrt-x86_64-windows-gnu.7z",
+            "hash": "sha512:1ffea5a960ecf76479443246941aff40ac71691f15933dedadacd661a97f5179bc627d22d483055e1e70c0d9e49566ce006d0016bf0f61fc85879c7e2f739201"
         }
     },
     "shortcuts": [["bin/tsukimi.exe", "Tsukimi-Alt"]],
@@ -18,7 +17,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Kosette/tsukimi/releases/download/$version/tsukimi-x86_64-windows-gnu.7z"
+                "url": "https://github.com/Kosette/tsukimi/releases/download/$version/tsukimi-ucrt-x86_64-windows-gnu.7z"
             }
         },
         "hash": {
