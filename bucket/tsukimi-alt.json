@@ -1,11 +1,11 @@
 {
-    "version": "v2024-09-25",
+    "version": "v2024-09-24",
     "description": "A Simple EMBY client.",
     "homepage": "https://github.com/tsukinaha/tsukimi",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kosette/tsukimi/releases/download/v2024-09-25/tsukimi-ucrt-x86_64-windows-gnu.7z",
+            "url": "https://github.com/Kosette/tsukimi/releases/download/v2024-09-24/tsukimi-ucrt-x86_64-windows-gnu.7z",
             "hash": "sha512:1ffea5a960ecf76479443246941aff40ac71691f15933dedadacd661a97f5179bc627d22d483055e1e70c0d9e49566ce006d0016bf0f61fc85879c7e2f739201"
         }
     },
