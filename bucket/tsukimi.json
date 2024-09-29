@@ -1,12 +1,12 @@
 {
-    "version": "0.12.3",
+    "version": "0.13.0",
     "description": "A Simple and Easy to use EMBY client.",
     "homepage": "https://github.com/tsukinaha/tsukimi",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v0.12.3/tsukimi-x86_64-windows-gnu.7z",
-            "hash": "8b90a3de150b4fe027050df36f9e715550e5f45a046da50d4d17c321ad7ce443"
+            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v0.13.0/tsukimi-x86_64-windows-gnu.7z",
+            "hash": "sha512:e622fc8b7d611f1f17fe628716ca53bb806e25507caf36f195547b34efe3ab5919b0905d0e12998c7f219b144df720f2c80f93c6b6c7491c8ef181344d4dbdf8"
         }
     },
     "shortcuts": [
