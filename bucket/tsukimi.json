@@ -1,25 +1,15 @@
 {
-    "version": "0.19.4",
+    "version": "0.20.0",
     "description": "A Simple and Easy to use EMBY client.",
     "homepage": "https://github.com/tsukinaha/tsukimi",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tsukinaha/tsukimi/releases/download/v0.19.4/tsukimi-x86_64-windows-gnu.7z",
-            "hash": "sha512:b21bbeff6e18f6bdc038a77b98d219ce00e352ebdcd9e5250e409c0fa11a973e197551697b4e29b4b7efe15bcb4e076abaa62e45549d6cce839a670f1502ee66"
+            "url": "https://github.com/kosette/tsukimi/releases/download/v0.20.0/tsukimi-x86_64-windows-gnu.7z",
+            "hash": "sha512:23b676a4e1a80166050ecfcafb75c91a6c5129baeed849e6492bad91437cf6f6a522e643e9343ac731b3fef78d080d3b1c5f1efb6aab13cb84a3e6cc94df3176"
         }
     },
-    "shortcuts": [
-        [
-            "bin/tsukimi.exe",
-            "Tsukimi"
-        ]
-    ],
-    "persist": [
-        "config",
-        "mpv",
-        "cache"
-    ],
+    "shortcuts": [["bin/tsukimi.exe", "Tsukimi"]],
     "checkver": {
         "url": "https://api.github.com/repos/tsukinaha/tsukimi/releases/latest",
         "regex": "/v([\\w-.]+)"
