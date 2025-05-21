@@ -17,6 +17,7 @@
             "shortcuts": [["mpc-hc.exe", "MPC-HC"]]
         }
     },
+    "persist": ["mpc-hc64.ini", "mpc-hc.ini", "default.mpcpl"],
     "checkver": {
         "url": "https://api.github.com/repos/clsid2/mpc-hc/releases/latest",
         "regex": "/([\\w-.]+)"
