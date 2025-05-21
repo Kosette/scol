@@ -1,0 +1,35 @@
+{
+    "version": "2.4.3",
+    "description": "A free and open-source video and audio player for Windows",
+    "homepage": "https://github.com/clsid2/mpc-hc",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/clsid2/mpc-hc/releases/download/2.4.3/MPC-HC.2.4.3.x64.zip",
+            "hash": "64d4074faf387458c97b2a3513079a675c92e6ed81b97bb6c8f808e1ff6060ac",
+            "bin": "mpc-hc64.exe"
+        },
+        "32bit": {
+            "url": "https://github.com/clsid2/mpc-hc/releases/download/2.4.3/MPC-HC.2.4.3.x86.zip",
+            "hash": "db193cd8b0032e26cdaecaff8cad231e71e69788b3f5bb12df11c611d19ddd21",
+            "bin": "mpc-hc.exe"
+        }
+    },
+    "checkver": {
+        "url": "https://api.github.com/repos/clsid2/mpc-hc/releases/latest",
+        "regex": "/([\\w-.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/clsid2/mpc-hc/releases/download/$version/MPC-HC.$version.x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/clsid2/mpc-hc/releases/download/$version/MPC-HC.$version.x86.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
