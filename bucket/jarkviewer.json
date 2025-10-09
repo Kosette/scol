@@ -10,6 +10,7 @@
         }
     },
     "bin": "jarkViewer.exe",
+    "shortcuts": [["jarkViewer.exe", "jarkViewer"]],
     "checkver": {
         "url": "https://api.github.com/repos/jark006/jarkViewer/releases/latest",
         "regex": "/v([\\w-.]+)"
