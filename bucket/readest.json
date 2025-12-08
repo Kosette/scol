@@ -26,7 +26,7 @@
         "Readest",
         "settings.json"
     ],
-    "pre_install": "if (-not (Test-Path \"$persist_dir\\settings.json\")) { New-Item \"$persist_dir\\settings.json\" -ItemType File | Out-Null }",
+    "pre_install": "if (-not (Test-Path \"$persist_dir\\settings.json\")) { New-Item \"$persist_dir\" -ItemType Directory | Out-Null ; New-Item \"$persist_dir\\settings.json\" -ItemType File | Out-Null }",
     "checkver": {
         "github": "https://github.com/readest/readest"
     },
