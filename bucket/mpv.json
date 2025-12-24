@@ -1,5 +1,5 @@
 {
-    "version": "0.40.0",
+    "version": "0.41.0",
     "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-0.40.0-x86_64-v3.7z",
-            "hash": "6a87dcd182cfb5abb58fc106e4167730d4a3b6d3b87d4c5db45e94b0ffc4e5b6"
+            "url": "https://github.com/mpv-player/mpv/releases/download/v0.41.0/mpv-v0.41.0-x86_64-pc-windows-msvc.zip",
+            "hash": "sha256:4e197f729f5071c6772f35fffd96e0f36e3e8a044bd9479b136bb09b7c6a80ff"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-0.40.0-i686.7z",
-            "hash": "518334d073bc5ac252feeba3915295a53549cfae3ca172b206ec3b870bb6b491"
+            "url": "https://github.com/mpv-player/mpv/releases/download/v0.41.0/mpv-v0.41.0-i686-w64-mingw32.zip",
+            "hash": "sha256:7e88e5b53b322cc2fa8c161494c75b11c02a64252fc8c6f34a80e01d6ace4a73"
         }
     },
     "env_add_path": ".",
@@ -25,21 +25,15 @@
         ]
     ],
     "persist": "portable_config",
-    "checkver": {
-        "sourceforge": "mpv-player-windows/release",
-        "regex": "mpv-([\\d.]+)-"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-$version-x86_64-v3.7z"
+                "url": "https://github.com/mpv-player/mpv/releases/download/v$version/mpv-v$version-x86_64-pc-windows-msvc.zip"
             },
             "32bit": {
-                "url": "https://downloads.sourceforge.net/project/mpv-player-windows/release/mpv-$version-i686.7z"
+                "url": "https://github.com/mpv-player/mpv/releases/download/v$version/mpv-v$version-i686-w64-mingw32.zip"
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }
