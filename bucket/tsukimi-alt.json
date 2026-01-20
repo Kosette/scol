@@ -15,18 +15,12 @@
             "Tsukimi-Alt"
         ]
     ],
-    "checkver": {
-        "url": "https://api.github.com/repos/Kosette/tsukimi/releases/latest",
-        "regex": "/v([\\w-.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/Kosette/tsukimi/releases/download/v$version/tsukimi-ucrt-x86_64-windows-gnu.7z"
             }
-        },
-        "hash": {
-            "url": "$baseurl/tsukimi.sha512sum"
         }
     }
 }

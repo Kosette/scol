@@ -17,10 +17,7 @@
     },
     "bin": "edit.exe",
     "pre_install": "Get-ChildItem \"$dir\" -Recurse -File | Where-Object { $_.Name -ne 'edit.exe' } | Remove-Item -Force",
-    "checkver": {
-        "url": "https://api.github.com/repos/microsoft/edit/releases/latest",
-        "regex": "/v([\\w-.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -31,9 +28,6 @@
                 "url": "https://github.com/microsoft/edit/releases/download/v$version/edit-$version-aarch64-windows.zip",
                 "extract_dir": "edit-$version-aarch64-windows"
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }

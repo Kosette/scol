@@ -16,10 +16,7 @@
         }
     },
     "bin": "rimage.exe",
-    "checkver": {
-        "url": "https://api.github.com/repos/SalOne22/rimage/releases/latest",
-        "regex": "/v([\\w-.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -30,9 +27,6 @@
                 "url": "https://github.com/SalOne22/rimage/releases/download/v$version/rimage-$version-i686-pc-windows-msvc.zip",
                 "extract_dir": "rimage-$version-i686-pc-windows-msvc"
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }

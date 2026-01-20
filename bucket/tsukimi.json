@@ -9,19 +9,18 @@
             "hash": "sha512:23b676a4e1a80166050ecfcafb75c91a6c5129baeed849e6492bad91437cf6f6a522e643e9343ac731b3fef78d080d3b1c5f1efb6aab13cb84a3e6cc94df3176"
         }
     },
-    "shortcuts": [["bin/tsukimi.exe", "Tsukimi"]],
-    "checkver": {
-        "url": "https://api.github.com/repos/tsukinaha/tsukimi/releases/latest",
-        "regex": "/v([\\w-.]+)"
-    },
+    "shortcuts": [
+        [
+            "bin/tsukimi.exe",
+            "Tsukimi"
+        ]
+    ],
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
                 "url": "https://github.com/tsukinaha/tsukimi/releases/download/v$version/tsukimi-x86_64-windows-gnu.7z"
             }
-        },
-        "hash": {
-            "url": "$baseurl/tsukimi.sha512sum"
         }
     }
 }
