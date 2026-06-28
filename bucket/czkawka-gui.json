@@ -5,14 +5,14 @@
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qarmin/czkawka/releases/download/12.0.0/windows_krokiet_on_linux.exe",
-            "hash": "6c65904eeb1de5b76a338906bc09bee5a4ddf1c977fff836a6cb3a41023a3dd4"
+            "url": "https://github.com/qarmin/czkawka/releases/download/12.0.0/windows_krokiet_on_windows_skia_opengl.exe",
+            "hash": "sha256:bb9c907035c1ae067aabfc4033eeb6a0565593edd15d770de0e7d42f9143b794"
         }
     },
-    "bin": "windows_krokiet_on_linux.exe",
+    "bin": "windows_krokiet_on_windows_skia_opengl.exe",
     "shortcuts": [
         [
-            "windows_krokiet_on_linux.exe",
+            "windows_krokiet_on_windows_skia_opengl.exe",
             "Krokiet"
         ]
     ],
@@ -20,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/qarmin/czkawka/releases/download/$version/windows_krokiet_on_linux.exe"
+                "url": "https://github.com/qarmin/czkawka/releases/download/$version/windows_krokiet_on_windows_skia_opengl.exe"
             }
         }
     }
