@@ -1,12 +1,12 @@
 {
-    "version": "12.0.0",
+    "version": "12.0.1",
     "description": "Multi functional app to find duplicates, empty folders, similar images etc.",
     "homepage": "https://github.com/qarmin/czkawka",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qarmin/czkawka/releases/download/12.0.0/windows_krokiet_on_windows_skia_opengl.exe",
-            "hash": "sha256:bb9c907035c1ae067aabfc4033eeb6a0565593edd15d770de0e7d42f9143b794"
+            "url": "https://github.com/qarmin/czkawka/releases/download/12.0.1/windows_krokiet_on_windows_skia_opengl.exe",
+            "hash": "9f1a8e51b4d0825c57379fb2d0e13f153e7c559aeb1e4e7c129ffe6b24e3aa15"
         }
     },
     "bin": "windows_krokiet_on_windows_skia_opengl.exe",
